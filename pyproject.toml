@@ -1,0 +1,20 @@
+[project]
+name = "apotek-tools"
+version = "0.1.0"
+description = "Tools for Apotek price list management"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "pandas",
+    "openpyxl",
+    "click",
+    "rich",
+]
+
+[project.scripts]
+apotek-tools = "apotek_tools.cli:main"
+
+# Use only valid uv configuration settings
+[tool.uv]
+python-preference = "managed"

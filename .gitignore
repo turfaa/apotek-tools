@@ -225,4 +225,10 @@ pyrightconfig.json
 .history
 .ionide
 
+# Project specific
+cookie.json
+*.xlsx
+.uv/
+apotek_config.json
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,macos
